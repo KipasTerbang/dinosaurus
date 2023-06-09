@@ -1,0 +1,252 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "M PLUS ROUNDED 1c", sans-serif;
+}
+
+body {
+  background: linear-gradient(#101330, #00335f);
+  margin: 20px 100px;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 25px;
+}
+
+ul.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+a.home {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-right: 700px;
+  font-size: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: serif;
+  color: #dde6ed;
+  font-weight: 800;
+  padding: 8px 0;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div span {
+  font-family: "Lobster";
+  color: #dde6ed;
+  font-size: 40px;
+}
+
+nav ul li a:hover {
+  color: #00d26a;
+}
+
+nav ul li a:active,
+nav ul li a:focus {
+  border: 2px solid rgba(0, 210, 106, 0.2);
+  border-radius: 10px;
+  background-color: rgba(0, 210, 106, 0.2);
+  color: #00d26a;
+}
+
+main {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: sans-serif;
+  color: #dde6ed;
+}
+
+main div section img.logo1 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+main .nama {
+  font-family: "M PLUS ROUNDED 1c", sans-serif;
+  font-size: 30px;
+  margin-bottom: 1px;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+h3.nama {
+  margin-top: 20px;
+}
+
+h3.about {
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+h2.hob {
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.kontak a {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.my-button {
+  padding: 5px 20px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.my-button:active {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.button-text {
+  display: inline;
+  color: #00d26a;
+  text-align: center;
+  font-size: 16px;
+}
+
+.my-button:hover {
+  border: 3px solid #2c394b;
+  border-radius: 10px;
+  transform: translate(0);
+}
+
+.icon {
+  display: inline;
+  width: 30px;
+}
+
+button.lanjut {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.lanjut:hover {
+  opacity: 0.5;
+}
+
+button.lanjut {
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+}
+
+aside ul {
+  display: block;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0px;
+}
+
+aside ul li {
+  display: flex;
+  align-items: center;
+}
+
+aside ul li img.ig {
+  width: 50px;
+  margin: 20px auto;
+}
+
+aside ul li img.gb {
+  width: 40px;
+  margin: 20px auto;
+}
+
+aside ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  margin: 0 140px auto;
+  color: #4caf50;
+}
+
+p.deskripsi {
+  font-size: 24px;
+}
+
+section#hobbies ul {
+  display: block;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0px;
+}
+
+section#hobbies ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section#hobbies ul li img.party {
+  width: 200px;
+  margin: 20px auto;
+}
+
+section#hobbies ul li img.voli {
+  width: 267px;
+  margin: 20px auto;
+}
+
+section#hobbies ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #4caf50;
+  margin: 5px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0px;
+  color: white;
+}
